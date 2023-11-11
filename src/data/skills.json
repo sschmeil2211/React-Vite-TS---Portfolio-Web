@@ -1,30 +1,132 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "name": "Frameworks",
+    "skills": [
+      {
+        "title": "React.js",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "React Native",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "Nest.js",
+        "imageSrc": "skills/nest.png"
+      },
+      {
+        "title": "Node.js",
+        "imageSrc": "skills/node.png"
+      },
+      {
+        "title": "ASP.NET",
+        "imageSrc": "skills/aspnet.png"
+      },
+      {
+        "title": "Flutter",
+        "imageSrc": "skills/flutter.png"
+      },
+      {
+        "title": "Unity",
+        "imageSrc": "skills/unity.png"
+      }
+    ]
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "name": "Programming Languages",
+    "skills": [
+      {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+      },
+      {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+      },
+      {
+        "title": "Swift",
+        "imageSrc": "skills/swift.png"
+      },
+      {
+        "title": "Typescript",
+        "imageSrc": "skills/typescript.png"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "skills/javascript.png"
+      },
+      {
+        "title": "C",
+        "imageSrc": "skills/c.png"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/c++.png"
+      },
+      {
+        "title": "C#",
+        "imageSrc": "skills/csharp.png"
+      }
+    ]
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "name": "Database",
+    "skills": [
+      {
+        "title": "PostgreSQL",
+        "imageSrc": "skills/postgresql.png"
+      }
+    ]
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "name": "Development Tools",
+    "skills": [
+      {
+        "title": "Sentry",
+        "imageSrc": "skills/sentry.png"
+      },
+      {
+        "title": "Git Hub",
+        "imageSrc": "skills/git-hub.png"
+      }
+    ]
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "name": "Cloud Services",
+    "skills": [
+      {
+        "title": "AWS",
+        "imageSrc": "skills/aws.png"
+      },
+      {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.png"
+      }
+    ]
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "name": "Design and 3D Modeling",
+    "skills": [
+      {
+        "title": "Photoshop",
+        "imageSrc": "skills/photoshop.png"
+      },
+      {
+        "title": "Maya",
+        "imageSrc": "skills/maya.png"
+      },
+      {
+        "title": "ZBrush",
+        "imageSrc": "skills/zbrush.png"
+      },
+      {
+        "title": "Blender",
+        "imageSrc": "skills/blender.png"
+      }
+    ]
   }
 ]

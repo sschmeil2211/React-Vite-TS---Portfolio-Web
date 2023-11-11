@@ -1,10 +1,10 @@
 @import "../../constants.css";
 
 .container {
-  position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  position: relative; 
+  background: linear-gradient(90deg, rgba(12, 12, 12, 0.6) 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 15px;
-  padding: 73px;
+  padding: 30px;
   margin-top: 129px;
   z-index: 1;
   margin-left: 10%;
@@ -17,7 +17,8 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-}
+  padding: 20px; 
+} 
 
 .content {
   display: flex;
@@ -64,6 +65,12 @@
 
 .aboutItem p {
   font-size: 25px;
+}   
+
+.aboutItemImage { 
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Maintain the aspect ratio */  
+  margin: 0px 20px;
 }
 
 @media screen and (max-width: 830px) {
