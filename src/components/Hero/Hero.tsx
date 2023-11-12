@@ -1,5 +1,5 @@
 //import { getImageUrl } from "../../utils";
-import styles from "./Hero.module.css"; 
+import styles from "./Hero.module.css";
 
 export const Hero = () => {
     return (
@@ -7,10 +7,10 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm Sebastian</h1>
                 <p className={styles.description}>
-                    I'm a full-stack developer with 5 years of experience using React and
-                    NodeJS. Reach out if you'd like to learn more!
+                    I'm a mobile developer with 3 years of experience using Flutter and React Native. Also Unity game developer.
+                    Contact me if you want to know more about me
                 </p>
-                <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+                <a href="mailto:schmeil.sebastian97@gmail.com" className={styles.contactBtn}>
                     Contact Me
                 </a>
             </div>

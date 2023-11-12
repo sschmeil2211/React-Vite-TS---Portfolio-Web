@@ -2,13 +2,9 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100vw;
-  padding: 58px 10%;
+  margin-top: 80px;
+  background-color: var(--color-secondary);  
+  padding: 30px 50px;
   gap: 10px;
 }
 
@@ -25,16 +21,18 @@
 }
 
 .links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: flex; 
+  flex-direction: row; 
   list-style: none;
-  gap: 26px;
+  justify-content: space-around;
+  width: "100%"; 
+  gap: 26px; 
 }
 
 .link {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 25px;
 }
 
@@ -44,11 +42,12 @@
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1.5px;
-}
+} 
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
+    align-items: center;
     gap: 23px;
   }
 
@@ -58,7 +57,8 @@
     align-items: center;
   }
 
-  .links {
+  .links { 
+    flex-direction: column;
     align-items: center;
   }
 }

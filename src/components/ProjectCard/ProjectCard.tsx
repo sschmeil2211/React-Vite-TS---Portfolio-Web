@@ -6,7 +6,6 @@ interface Project {
     imageSrc: string;
     description: string;
     skills: string[];
-    demo: string;
     source: string;
 }
 
@@ -15,7 +14,7 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-    const { title, imageSrc, description, skills, demo, source } = project;
+    const { title, imageSrc, description, skills, source } = project;
     return (
         <div className={styles.container}>
             <img
@@ -35,9 +34,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 })}
             </ul>
             <div className={styles.links}>
-                <a href={demo} className={styles.link}>
-                    Demo
-                </a>
                 <a href={source} className={styles.link}>
                     Source
                 </a>

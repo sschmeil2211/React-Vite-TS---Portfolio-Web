@@ -22,8 +22,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Mobile Developer</h3>
                             <p>
-                                I'm a frontend developer with experience in building responsive
-                                and optimized sites
+                                I'm a mobile developer with experience in Swift, React Native and Flutter.
                             </p>
                         </div>
                     </li>
@@ -36,8 +35,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Game Developer</h3>
                             <p>
-                                I have experience developing fast and optimised back-end systems
-                                and APIs
+                                I'm a game design and development student and I use Unity for my projects.
                             </p>
                         </div>
                     </li>
@@ -50,8 +48,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Game Designer</h3>
                             <p>
-                                I have designed multiple landing pages and have created design
-                                systems as well
+                                I create 3D designs and models for video games and as a hobby.
                             </p>
                         </div>
                     </li>

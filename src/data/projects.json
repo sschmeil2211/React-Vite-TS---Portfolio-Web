@@ -1,26 +1,72 @@
 [
   {
-    "title": "Project A",
+    "title": "Portfolio Web",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["Vite", "React.JS", "Typescript", "CSS"],
+    "source": "https://github.com/sschmeil2211/React-Vite-TS---Portfolio-Web"
   },
   {
-    "title": "Project B",
+    "title": "Animated Bottom Tabs",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["React Native", "Typescript", "Javascript"],
+    "source": "https://github.com/sschmeil2211/React-Native---Animated-Bottom-Tab"
   },
   {
-    "title": "Project C",
+    "title": "Simple End Point Call",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
+    "skills": ["React Native", "Typescript", "Axios"],
+    "source": "https://github.com/sschmeil2211/React-Native---Simple-end-point-call"
+  },
+  {
+    "title": "Tesla Clone",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React Native", "Javascript"],
+    "source": "https://github.com/sschmeil2211/React-Native---Tesla-clone"
+  },
+  {
+    "title": "Airbnb Clone",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React Native", "Javascript"],
+    "source": "https://github.com/sschmeil2211/React-Native---Airbnb-clone"
+  },
+  {
+    "title": "Animated App",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Swift", "Rive Animations"],
+    "source": "https://github.com/sschmeil2211/Swift---Animated-App"
+  },
+  {
+    "title": "Animated App",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Swift", "Rive Animations"],
+    "source": "https://github.com/sschmeil2211/Swift---Planner-for-me"
+  },
+  {
+    "title": "Personal Nutritional Control",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Flutter", "Firebase"],
+    "source": "https://github.com/sschmeil2211/Flutter---Personal-Nutritional-Control"
+  },
+  {
+    "title": "Nationalizations Desktop",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Flutter"],
+    "source": "https://github.com/sschmeil2211/Flutter---Nationalizations-Desktop"
+  },
+  {
+    "title": "Fintech",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React Native", "React.JS", "ASP.NET", "Nest.JS", "Firebase"],
+    "source": "https://github.com/sschmeil2211/Fintech-Project"
+  } 
 ]
