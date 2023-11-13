@@ -2,6 +2,7 @@
 
 .container {
   margin-top: 76px;
+  margin-bottom: 100px;
   color: var(--color-text);
   margin-left: 10%; 
 }
@@ -17,7 +18,7 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   gap: 15px;
   width: 100%;
 }

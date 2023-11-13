@@ -1,72 +1,162 @@
 [
   {
     "title": "Portfolio Web",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Vite", "React.JS", "Typescript", "CSS"],
+    "imageSrc": "projects/web project.png",
+    "description": "Web project that I use as a portfolio to demonstrate my knowledge.",
+    "skills": [
+      {
+        "title": "React.js",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "Vite",
+        "imageSrc": "skills/vite.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/React-Vite-TS---Portfolio-Web"
   },
   {
+    "title": "Fintech",
+    "imageSrc": "projects/mobile project.png",
+    "description": "A fintech that simulates transactions between users and investments and applies hashing security to user passwords and an RSA method to transactions.",
+    "skills": [
+      {
+        "title": "React Native",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "React.js",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "ASP.NET",
+        "imageSrc": "skills/aspnet.png"
+      },
+      {
+        "title": "Nest.js",
+        "imageSrc": "skills/nest.png"
+      },
+      {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.png"
+      }
+    ],
+    "source": "https://github.com/sschmeil2211/Fintech-Project"
+  },
+  {
     "title": "Animated Bottom Tabs",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React Native", "Typescript", "Javascript"],
+    "imageSrc": "projects/mobile project.png",
+    "description": "Mobile app to show an animated bottom tab.",
+    "skills": [
+      {
+        "title": "React Native",
+        "imageSrc": "skills/react.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/React-Native---Animated-Bottom-Tab"
   },
   {
     "title": "Simple End Point Call",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React Native", "Typescript", "Axios"],
+    "imageSrc": "projects/mobile project.png",
+    "description": "A simple App project that calls an API created in cloud functions using Axios.",
+    "skills": [
+      {
+        "title": "React Native",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/React-Native---Simple-end-point-call"
   },
   {
     "title": "Tesla Clone",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React Native", "Javascript"],
+    "imageSrc": "projects/mobile project.png",
+    "description": "An app made to learn about the React Native environment with Javascript with a design based on Tesla.",
+    "skills": [
+      {
+        "title": "React Native",
+        "imageSrc": "skills/react.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/React-Native---Tesla-clone"
   },
   {
     "title": "Airbnb Clone",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React Native", "Javascript"],
+    "imageSrc": "projects/mobile project.png",
+    "description": "An app made to learn about the React Native environment with Javascript with a design based on Airbnb.",
+    "skills": [
+      {
+        "title": "React Native",
+        "imageSrc": "skills/react.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/React-Native---Airbnb-clone"
   },
   {
     "title": "Animated App",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Swift", "Rive Animations"],
+    "imageSrc": "projects/mobile project.png",
+    "description": "An app created in Swift using Rive animations.",
+    "skills": [
+      {
+        "title": "Swift",
+        "imageSrc": "skills/swift.png"
+      },
+      {
+        "title": "Rive",
+        "imageSrc": "skills/rive.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/Swift---Animated-App"
   },
   {
-    "title": "Animated App",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Swift", "Rive Animations"],
+    "title": "Planner for me",
+    "imageSrc": "projects/mobile project.png",
+    "description": "An app made with swift and connected to firebase dedicated to task control and planning.",
+    "skills": [
+      {
+        "title": "Swift",
+        "imageSrc": "skills/swift.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/Swift---Planner-for-me"
   },
   {
     "title": "Personal Nutritional Control",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Flutter", "Firebase"],
+    "imageSrc": "projects/mobile project.png",
+    "description": "A simple application, connected to Firebase, designed for those users who want to keep control of their diets.",
+    "skills": [
+      {
+        "title": "Flutter",
+        "imageSrc": "skills/flutter.png"
+      },
+      {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.png"
+      }
+    ],
     "source": "https://github.com/sschmeil2211/Flutter---Personal-Nutritional-Control"
   },
   {
-    "title": "Nationalizations Desktop",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["Flutter"],
-    "source": "https://github.com/sschmeil2211/Flutter---Nationalizations-Desktop"
-  },
-  {
-    "title": "Fintech",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React Native", "React.JS", "ASP.NET", "Nest.JS", "Firebase"],
-    "source": "https://github.com/sschmeil2211/Fintech-Project"
-  } 
+    "title": "RPG Game 3D",
+    "imageSrc": "projects/game project.png",
+    "description": "A game created in Unity with simple mechanics on a small terrain. University project.",
+    "skills": [ 
+      {
+        "title": "Unity",
+        "imageSrc": "skills/unity.png"
+      },
+      {
+        "title": "Photoshop",
+        "imageSrc": "skills/photoshop.png"
+      },
+      {
+        "title": "ZBrush",
+        "imageSrc": "skills/zbrush.png"
+      }
+    ],
+    "source": "https://github.com/sschmeil2211/Unity3D---RPG-Game"
+  }
 ]

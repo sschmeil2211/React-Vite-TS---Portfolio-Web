@@ -15,3 +15,14 @@ export const Projects = () => {
         </section>
     );
 };
+
+/* 
+,
+  {
+    "title": "Nationalizations Desktop",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Flutter"],
+    "source": "https://github.com/sschmeil2211/Flutter---Nationalizations-Desktop"
+  } 
+*/
