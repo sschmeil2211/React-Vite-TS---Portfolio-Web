@@ -1,5 +1,5 @@
 import styles from './App.module.css';
-import { About } from './components/About/About'; 
+import { About } from './components/About/About';  
 import { Experience } from './components/Experience/Experience';
 import { Footer } from './components/Footer/Footer';
 import { Hero } from './components/Hero/Hero';
@@ -16,7 +16,7 @@ function App() {
       <Experience />
       <Knowledge />
       <Projects /> 
-      <Footer />
+      <Footer /> 
     </div>
   )
 }

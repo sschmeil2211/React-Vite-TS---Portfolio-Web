@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -20,6 +22,12 @@ interface ProjectCardProps {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     const { title, imageSrc, description, skills, source } = project;
+    const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
+
+    const toggleDescription = () => {
+        setIsDescriptionExpanded(!isDescriptionExpanded);
+    };
+
     return (
         <div className={styles.container}>
             <div>
@@ -31,7 +39,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     />
                 </div>
                 <h3 className={styles.title}>{title}</h3>
-                <p className={styles.description}>{description}</p>
+                <p
+                    className={`${styles.description} ${isDescriptionExpanded ? styles.expanded : ''
+                        }`}
+                    onClick={toggleDescription}
+                >
+                    {description}
+                </p>
+                {/* <p className={styles.description}>{description}</p> */}
                 <ul className={styles.skills}>
                     {skills.map((skill, id) => {
                         return (

@@ -23,39 +23,52 @@
 }
 
 .title {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
 }
 
+/* .description {
+  margin-top: 6px;
+  font-size: 22px;
+  font-weight: 300;
+  display: -webkit-box; 
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */
+
 .description {
   margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer; /* Add cursor pointer for indicating it's clickable */
+}
+
+.expanded {
+  -webkit-line-clamp: unset;
+  overflow: unset;
 }
 
 .skills {
   width: 100%;
-  margin-top: 14px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 20px;
   list-style: none; 
-}
-
-/* .skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
-} */
+  justify-content: center; 
+} 
 
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 11px; 
 }
 
 .skillImageContainer {
