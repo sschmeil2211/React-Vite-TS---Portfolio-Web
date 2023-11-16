@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import styles from "./Projects.module.css";
+import styles from "./projects.module.css";
 import { ProjectCard } from "../project_card/project_card";
 import ProjectModel from "../../models/project_model";
 import ProjectsRepository from "../../view_models/repositories/project_repository";
