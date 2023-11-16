@@ -1,5 +1,5 @@
-import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
+import styles from "./hero.module.css";
+import { getImageUrl } from "../../utils/utils";
 
 export const Hero = () => {
 

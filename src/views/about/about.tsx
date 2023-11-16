@@ -1,5 +1,5 @@
-import { getImageUrl } from "../../utils";
-import styles from "./About.module.css";
+import { getImageUrl } from "../../utils/utils";
+import styles from "./about.module.css";
 
 
 export const About = () => {

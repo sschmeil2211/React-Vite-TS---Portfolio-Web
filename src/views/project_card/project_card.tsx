@@ -1,64 +1,50 @@
 import { useState } from "react";
 
-import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
-
-interface Skills {
-    title: string;
-    imageSrc: string;
-}
-
-interface Project {
-    title: string;
-    imageSrc: string;
-    description: string;
-    skills: Skills[];
-    source: string;
-}
+import styles from "./project_card.module.css";
+import { getImageUrl } from "../../utils/utils"; 
+import ProjectModel from "../../models/project_model";
 
 interface ProjectCardProps {
-    project: Project;
+    project: ProjectModel;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-    const { title, imageSrc, description, skills, source } = project;
+    const { title, projectType, description, skills, source } = project;
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
     const toggleDescription = () => {
         setIsDescriptionExpanded(!isDescriptionExpanded);
-    };
+    }; 
 
     return (
         <div className={styles.container}>
             <div>
                 <div className={styles.imageContainer}>
                     <img
-                        src={getImageUrl(imageSrc)}
+                        src={getImageUrl(`projects/${projectType}.png`)}
                         alt={`Image of ${title}`}
                         className={styles.image}
                     />
                 </div>
                 <h3 className={styles.title}>{title}</h3>
                 <p
-                    className={`${styles.description} ${isDescriptionExpanded ? styles.expanded : ''
-                        }`}
+                    className={`${styles.description} ${isDescriptionExpanded ? styles.expanded : ''}`}
                     onClick={toggleDescription}
                 >
                     {description}
-                </p>
-                {/* <p className={styles.description}>{description}</p> */}
+                </p> 
                 <ul className={styles.skills}>
-                    {skills.map((skill, id) => {
+                    {skills.map((skill, id) => { 
                         return (
                             <li key={id} className={styles.skill}>
                                 <div className={styles.skill}>
                                     <div className={styles.skillImageContainer}>
                                         <img
-                                            src={getImageUrl(skill.imageSrc)}
+                                            src={getImageUrl(`skills/${skill.toLowerCase()}.png`)}
                                             alt={"React Native"}
                                         />
                                     </div>
-                                    <p>{skill.title}</p>
+                                    <p>{skill}</p>
                                 </div>
                             </li>
                         );

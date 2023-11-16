@@ -3,7 +3,7 @@
     "name": "Frameworks",
     "skills": [
       {
-        "title": "React.js",
+        "title": "React",
         "imageSrc": "skills/react.png"
       },
       {
@@ -11,11 +11,11 @@
         "imageSrc": "skills/react.png"
       },
       {
-        "title": "Nest.js",
+        "title": "Nest",
         "imageSrc": "skills/nest.png"
       },
       {
-        "title": "Node.js",
+        "title": "Node",
         "imageSrc": "skills/node.png"
       },
       {

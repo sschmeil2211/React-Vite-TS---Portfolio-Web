@@ -1,5 +1,5 @@
-import styles from "./Footer.module.css";
-import { getImageUrl } from "../../utils";
+import styles from "./footer.module.css";
+import { getImageUrl } from "../../utils/utils";
 
 export const Footer = () => {
     return (

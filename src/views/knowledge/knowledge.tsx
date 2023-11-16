@@ -1,6 +1,6 @@
-import styles from "./Knowledge.module.css";
+import styles from "./knowledge.module.css";
 import skills from "../../data/skills.json";
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils/utils";
 
 export const Knowledge = () => {
     return (
