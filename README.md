@@ -50,7 +50,7 @@ Explore the application's functionalities by watching the demo video here.
 
 To access and test the project, use this link
 
-[https://schmeil-pokedex.netlify.app](https://schmeil-portfolio.netlify.app](https://schmeil-portfolio.netlify.app)
+https://schmeil-portfolio.netlify.app
 
 ## Technologies Used
 + Firebase
