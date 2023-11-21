@@ -56,6 +56,7 @@ https://schmeil-portfolio.netlify.app
 + Firebase
 + React
 + Vite
++ Typescript
 
 ## Developers
 Sebastian Schmeil
